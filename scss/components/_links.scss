@@ -6,3 +6,35 @@
 .link:hover {
   color: var(--color-brand-normal);
 }
+
+.address-list,
+.address-info {
+  flex-grow: 1;
+}
+.address-link {
+  color: var(--color-primary-light);
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.address-link:hover {
+  color: var(--color-brand-normal);
+}
+.address-social-icons {
+  /* ОТ СЕБЯ ДОБАВИЛ */
+  display: flex;
+  gap: 22px;
+  padding-top: 16px;
+}
+.address-icon {
+  fill: var(--color-primary-light);
+}
+.address-icon:hover {
+  fill: var(--color-brand-normal);
+}
+.address-copyright {
+  margin-bottom: 0; /* Это я от себя чисто */
+  color: var(--color-copyright);
+  font-size: 14px;
+  font-weight: 400;
+}
